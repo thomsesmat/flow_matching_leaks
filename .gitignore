@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data, checkpoints and experiment outputs (never commit)
+/raw/
+/data/
+/outputs/
+/logs/
+lightning_logs/
+wandb/
+slurm_logs/
+run_output/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.npz
+*.wav
+*.mp3
+*.flac
+
+# Figures and generated tables (regenerate with the scripts of the README)
+*.png
+*.pdf
+*.jpg
+*.csv
+!tests/data/*.csv
+
+# Local editor / OS files
+.lh/
+.vscode/
+.idea/
+.DS_Store
+._*
+
+# Local copy of the paper
+WFML.pdf
